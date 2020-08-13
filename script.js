@@ -13,7 +13,6 @@ todoAdd.addEventListener("click", addTodo);
 todoList.addEventListener("click", (event) => {
   if (event.target.className === "far fa-check-square") {
     completeTodo();
-    confetti(event.target);
   }
   if (event.target.className === "far fa-trash-alt") {
     removeTodo();
